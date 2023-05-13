@@ -7,7 +7,7 @@ const data = ref('Hello world')
 
 <template>
   <body>
-    <div><input v-model="data" /></div>
+    <div>Input any text here: <input v-model="data" /></div>
     <div style="margin: 20px">
       <QRCodeVue3
         :width="400"
@@ -52,5 +52,10 @@ const data = ref('Hello world')
       offset: 0, color: &#039;#41B883&#039; }, { offset: 1, color: &#039;#34495E&#039; } ] } }&quot;
       image=&quot;logo.svg&quot; :download=&quot;false&quot; /&gt;
     </code>
+    <ul>
+      <li><a href="https://qrcode-vue3-sample.vercel.app/">DEMO</a></li>
+      <li><a href="https://github.com/scholtz/qrcode-vue3-sample">DEMO Source code</a></li>
+      <li><a href="https://github.com/scholtz/qrcode-vue3">QR Code library source code</a></li>
+    </ul>
   </body>
 </template>
