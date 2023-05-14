@@ -54,7 +54,7 @@ const data = ref('Hello world')
     </code>
     <ul>
       <li><a href="https://qrcode-vue3-sample.vercel.app/">DEMO</a></li>
-      <li><a href="https://github.com/scholtz/qrcode-vue3-sample">DEMO Source code</a></li>
+      <li><a href="https://github.com/scholtz/qrcode-vue3-sample/blob/master/src/App.vue">DEMO Source code</a></li>
       <li><a href="https://github.com/scholtz/qrcode-vue3">QR Code library source code</a></li>
     </ul>
   </body>
